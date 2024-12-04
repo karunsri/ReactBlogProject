@@ -1,0 +1,41 @@
+.homepage {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .homepage h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .post {
+    border: transparent;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .post:hover{
+    scale: 1.1;
+  }
+  
+  .post h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .homepage {
+      text-align: left;
+    }
+  
+    .post {
+      display: inline-block;
+      width: 45%;
+      margin: 10px;
+    }
+  }
